@@ -1,0 +1,85 @@
+<!doctype html>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Add Place - Ideal Event</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
+	<script type="text/javascript" src="js/mobile.js"></script>
+	<style>
+		option{
+			color: black;
+			text-align-last: center;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<a href="" class="logo">
+			<img src="images/logos/logo9.png" alt=""  width="500" height="100">
+		</a>
+		<ul id="navigation">
+			<li>
+				<a href="index">home</a>
+			</li>
+			<li>
+				<a href="about">about</a>
+			</li>
+			<li>
+				<a href="gallery">gallery</a>
+			</li>
+			<li class = "selected">
+				<a href="add_place">add place</a>
+			</li>
+			<li>
+				<a href="contact">contact</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<h1><span>Add your place</span></h1>
+		<form action="add_place" method="post">
+			<input type="text" name="title" id="title" placeholder="title">
+			<input type="text" name="city" id="city" placeholder="city">
+			<input type="text" name="address" id="address" placeholder="address">
+			<select id="category" name="category" value="category" style="width: 613px;text-align-last: center;color: gray;text-align: center;">
+				<option selected disabled style="color: gray;">category</option>
+				<option value="Villa">Villa</option>
+				<option value="Hall">Hall</option>
+				<option value="Yard">Yard</option>
+				<option value="Balcony">Balcony</option>
+				<option value="Open ground">Open ground</option>
+			</select>
+			<input type="text" name="picture" id="picture" placeholder="image">
+			<input type="text" name="several_places" id="several_places" placeholder="num of people">
+			<input type="text" name="price" id="price" placeholder="price">
+			<input type="text" name="owner" id="owner" placeholder="owner">
+			<input type="text" name="phone" id="phone" placeholder="phone number">
+			<textarea name="description" id="description" placeholder="description"></textarea>
+			<input type="submit" name="send" id="send" value="send">
+		</form>
+	</div>
+	<div id="footer">
+		<div>
+			<p>&copy; 2023 by Mustacchio. All rights reserved.</p>
+			<ul>
+				<li>
+					<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
+				</li>
+				<li>
+					<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
+				</li>
+				<li>
+					<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
+				</li>
+				<li>
+					<a href="http://pinterest.com/fwtemplates/" id="pinterest">pinterest</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
